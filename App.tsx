@@ -19,7 +19,7 @@ const App: React.FC = () => {
     //   <Text style={styles.helloText}>Hello from React Native!</Text>
     // </SafeAreaView>
     <SafeAreaView style={{ flex: 1 }}>
-      <WebView source={{ uri: 'https://vishwaGoswami.github.io/rea_webview_-' }} />
+      <WebView source={{ uri: 'https://vishwaGoswami.github.io/kf-r-wv' }} />
     </SafeAreaView>
   );
 };
