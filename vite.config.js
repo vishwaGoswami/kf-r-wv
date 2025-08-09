@@ -4,6 +4,6 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/rea_webview_-/', 
+  base: '/kf-r-wv/', 
   plugins: [react(),tailwindcss(),],
 })
