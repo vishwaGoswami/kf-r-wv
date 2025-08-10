@@ -17,7 +17,11 @@
     "@fortawesome/free-solid-svg-icons": "^7.0.0",
     "@fortawesome/react-fontawesome": "^0.2.3",
     "@heroicons/react": "^2.2.0",
-    "@react-native-community/cli-platform-android": "latest",
+<<<<<<< HEAD
+    "@react-native-community/cli": "^19.1.1",
+    "@react-native-community/cli-platform-android": "^18.0.0",
+=======
+>>>>>>> 7954f10d960a3abc06728b274ab0cd1e6c01a90e
     "@tailwindcss/vite": "^4.1.11",
     "chart.js": "^4.5.0",
     "framer-motion": "^12.23.9",
@@ -31,7 +35,6 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.30.1",
-    "@react-native-community/cli": "latest",
     "@react-native/typescript-config": "^0.80.2",
     "@types/react": "^19.1.8",
     "@types/react-dom": "^19.1.6",
