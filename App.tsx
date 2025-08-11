@@ -3,7 +3,7 @@ import { SafeAreaView, StyleSheet, Text, View, Platform } from 'react-native';
 import { WebView } from 'react-native-webview';
 
 const App: React.FC = () => {
-  const uri = 'file:///android_asset/web/index.html';
+  // const uri = 'file:///android_asset/web/index.html';
   return (
     // <View style={styles.container}>
     //   <WebView
