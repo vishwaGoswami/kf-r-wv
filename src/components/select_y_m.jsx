@@ -32,10 +32,10 @@ export default function Year_Month() {
                 </div>
             </div>
             <div className="flex flex-wrap gap-2 mt-4">
-                <button className="flex-1 sm:flex-none md:flex-none p-2 text-sm text-black rounded-sm bg-gray-300 md:w-[7%] lg:w-[10%]">
+                <button className="flex-1  md:flex-none p-2 text-sm text-black rounded-sm bg-gray-300 md:w-[7%] lg:w-[10%]">
                     Clear
                 </button>
-                <button className="flex-1 sm:flex-none md:flex-none p-2 text-sm text-white rounded-sm bg-blue-500 md:w-[7%] lg:w-[10%]">
+                <button className="flex-1 md:flex-none p-2 text-sm text-white rounded-sm bg-blue-500 md:w-[7%] lg:w-[10%]">
                     Search
                 </button>
             </div>
