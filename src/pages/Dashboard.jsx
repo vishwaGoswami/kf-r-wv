@@ -30,27 +30,27 @@ const Dashboard = () => {
           <Sales_priority />
 
           <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2">
-            <div className="bg-white p-6 rounded m-2 shadow-lg  [w-50%]">
+            <div className="bg-white p-6 rounded m-2 shadow-lg">
               <MonthlyLineChart />
             </div>
-            <div className="bg-white p-6 rounded  shadow-lg m-2 [w-50%]">
+            <div className="bg-white p-6 rounded  shadow-lg m-2">
               <CallWaiting />
             </div>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2">
-            <div className="bg-white p-6 rounded m-2 shadow-lg  [w-50%]">
-              <div className="w-full">
+            <div className="bg-white p-6 rounded m-2 shadow-lg">
+              <div className="">
                 <h4 className="text-xl font-bold text-gray-500 mb-2">New Customer & New Site Details <sub className="text-gray-400 text-sm">for 2025</sub></h4>
-                <div className="bg-white shadow-lg rounded-xl p-6 w-full max-w-5xl mx-auto h-[400px]">
+                <div className="bg-white shadow-lg rounded-xl p-6 max-w-5xl mx-auto h-[400px]">
                   <CustomerGraph />
                 </div>
               </div>
             </div>
-            <div className="bg-white p-6 rounded  shadow-lg m-2 [w-50%]">
-              <div className="w-full">
+            <div className="bg-white p-6 rounded  shadow-lg m-2">
+              <div className="">
                 <h4 className="text-md font-bold text-gray-500 mb-2">Warranty & AMC Contract Expiring Details<sub className="text-gray-400 text-sm">for 2025</sub></h4>
-                <div className="bg-white shadow-lg rounded-xl p-6 w-full max-w-5xl h-[400px] mx-auto">
+                <div className="bg-white shadow-lg rounded-xl p-6  h-[400px] mx-auto">
                   <AMC_Contract />
                 </div>
               </div>
@@ -58,11 +58,11 @@ const Dashboard = () => {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2">
-            <div className="bg-white p-6 rounded m-2 shadow-lg  [w-50%]">
+            <div className="bg-white p-6 rounded m-2 shadow-lg">
             <h4 className="text-xl font-bold text-gray-500 mb-2">Sales Report <sub className="text-gray-400 text-sm">for July 2025</sub></h4>
               <SalesReport/>
             </div>
-            <div className="bg-white p-6 rounded  shadow-lg m-2 [w-50%]">
+            <div className="bg-white p-6 rounded  shadow-lg m-2">
             <h4 className="text-xl font-bold text-gray-500 mb-2">System Type Details <sub className="text-gray-400 text-sm">for July 2025</sub></h4>
               <SystemType />
             </div>

@@ -3,7 +3,7 @@ import { faArrowUp, faArrowDown, faArrowsUpDown } from '@fortawesome/free-solid-
 
 export default function Sales_priority() {
     return (
-        <div className="w-full rounded overflow-hidden shadow-lg bg-white my-7">
+        <div className="rounded overflow-hidden shadow-lg bg-white my-7">
             <h4 className="text-2xl text-gray-500 m-4">Sales Priority</h4>
             <div className="grid grid-cols-3 place-items-start m-4">
                 <div className="lg:w-[200px] h-[130px] rounded  shadow-lg bg-white">

@@ -28,7 +28,7 @@ const data = [
 
 export default function MultiLineChart() {
   return (
-    <div className="w-full">
+    <div className="">
       <h4 className="text-xl font-bold text-gray-500 mb-2">Sales Inquiry Details <sub className="text-gray-400 text-sm">for 2025</sub></h4>
       <div className="bg-white shadow-lg rounded-xl p-6 w-full max-w-5xl mx-auto">
         <h2 className="text-xl font-semibold text-center mb-4">Monthly Trends</h2>

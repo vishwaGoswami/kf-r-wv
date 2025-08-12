@@ -17,7 +17,7 @@ const COLORS = ['#3B82F6', '#22C55E', '#F59E0B'];
 
 function SalesReport() {
     return (
-        <div className="w-full h-[400px]">
+        <div className="h-[400px]">
             <ResponsiveContainer width="100%" height="100%">
                 <PieChart>
                     <Tooltip />

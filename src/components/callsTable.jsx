@@ -1,6 +1,6 @@
 export default function Calls() {
     return(
-        <div className="bg-white p-6 rounded  shadow-lg m-2 w-full relative">
+        <div className="bg-white p-6 rounded  shadow-lg m-2 relative">
             <h4 className="text-xl font-bold text-gray-500 mb-2">Pending Preventative Maintenance Calls</h4>
             {/* <div className="relative"> */}
             <input type="text" placeholder="Search" className="block w-[250px]  border-1 border-gray-400 absolute right-10 top-10 m-2"/>

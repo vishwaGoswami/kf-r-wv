@@ -36,7 +36,7 @@ const CustomerGraph = () => {
     };
 
     return (
-        <div className=" w-full h-[320px] lg:h-[350px]">
+        <div className="h-[320px] lg:h-[350px]">
             <Bar data={data} options={{ ...options, maintainAspectRatio: false }} />
         </div>
     );
