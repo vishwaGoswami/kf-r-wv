@@ -4,7 +4,7 @@ export default function Year_Month() {
             <div className="flex flex-col md:flex-row md:flex-wrap">
                 <div className="m-4">
                     <label class="block text-md  py-4 font-medium text-gray-700">Select Year</label>
-                    <select class="block w-full md:w-full  border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 h-[40%]">
+                    <select class="block w-full md:w-full lg:w-full  border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 h-[40%]">
                         <option value="2025" selected>2025</option>
                         <option value="2024">2024</option>
                         <option value="2023">2023</option>
@@ -15,7 +15,7 @@ export default function Year_Month() {
                 </div>
                 <div className="m-4">
                     <label class="block text-md  py-4 font-medium text-gray-700">Select Month</label>
-                    <select class="block w-full  border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 h-[40%]">
+                    <select class="block w-full md:w-full lg:w-full border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 h-[40%]">
                         <option value="2025">January</option>
                         <option value="2024">February</option>
                         <option value="2023">March</option>
