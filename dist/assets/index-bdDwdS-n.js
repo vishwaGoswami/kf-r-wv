@@ -193,7 +193,7 @@ Please change the parent <Route path="${O}"> to <Route path="${O==="/"?"*":`${O}
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
  */const J8=[["path",{d:"M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z",key:"cbrjhi"}]],eL=ft("wrench",J8),tL=({isOpen:e,toggleSidebar:t,open:n})=>{const[r,a]=_.useState(!1);return S.jsxs(S.Fragment,{children:[e&&S.jsx("div",{onClick:t,className:"fixed inset-0 bg-black/40 z-40 lg:hidden"}),S.jsxs("div",{className:`
-                    fixed lg:top-[91px] md:top-[90px] sm:top-[90px] top-[79px] left-0 h-[calc(100vh-4rem)]
+                    fixed lg:top-[91px] md:top-[90px] sm:top-[90px] top-[79px] left-0 h-screen lg:h-[calc(100vh-4rem)]
                     bg-gray-900 text-white flex flex-col w-64 z-50
                     transform ${e?"translate-x-0":"-translate-x-64"}
                     lg:translate-x-0 transition-transform duration-300 ease-in-out
