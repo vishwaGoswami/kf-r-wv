@@ -69,8 +69,8 @@ const Dashboard = () => {
           </div>
           <Calls/>
         </main>
-      </div >
-    </div >
+      </div>
+    </div>
   );
 };
 
