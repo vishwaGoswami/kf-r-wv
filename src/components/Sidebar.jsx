@@ -22,7 +22,7 @@ const Sidebar = ({ isOpen, toggleSidebar, open }) => {
 
             <div
                 className={`
-                    fixed lg:top-[91px] md:top-[90px] sm:top-[90px] top-[79px] left-0 h-[calc(100vh-4rem)]
+                    fixed lg:top-[91px] md:top-[90px] sm:top-[90px] top-[79px] left-0 h-screen lg:h-[calc(100vh-4rem)]
                     bg-gray-900 text-white flex flex-col w-64 z-50
                     transform ${isOpen ? 'translate-x-0' : '-translate-x-64'}
                     lg:translate-x-0 transition-transform duration-300 ease-in-out
