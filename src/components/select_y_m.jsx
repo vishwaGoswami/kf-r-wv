@@ -1,7 +1,7 @@
 export default function Year_Month() {
     return (
         <div class="w-full rounded overflow-hidden shadow-lg bg-white my-7">
-            <div className="grid grid-rows-1 md:grid-cols-3 lg:grid-cols-3">
+            <div className="flex flex-col md:flex-row md:flex-wrap">
                 <div className="m-4">
                     <label class="block text-md  py-4 font-medium text-gray-700">Select Year</label>
                     <select class="block w-full md:w-full  border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 h-[40%]">
