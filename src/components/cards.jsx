@@ -4,7 +4,7 @@ import { faBook, faHelmetSafety, faMedal, faIndianRupee, faLock, faWrench, faCha
 export default function Cards() {
   return (
     <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 place-items-center">
-      <div className="h-[130px] w-[200px] md:w-[250px] lg:w-[200px] rounded  shadow-lg bg-white my-4">
+      <div className="h-[130px] w-[800px] md:w-[250px] lg:w-[200px] rounded  shadow-lg bg-white my-4">
         <div className="p-2 flex justify-between">
           <FontAwesomeIcon
             icon={faBook}
@@ -14,7 +14,7 @@ export default function Cards() {
         </div>
         <p className="text-md text-gray-400 m-2">Customer Notes</p>
       </div>
-      <div class="h-[130px] w-[200px] md:w-[250px] lg:w-[200px] rounded  shadow-lg bg-white my-4">
+      <div class="h-[130px] w-[800px] md:w-[250px] lg:w-[200px] rounded  shadow-lg bg-white my-4">
         <div className="p-2 flex justify-between">
           <FontAwesomeIcon
             icon={faHelmetSafety}
@@ -24,7 +24,7 @@ export default function Cards() {
         </div>
         <p className="text-md text-gray-400 m-2">Contract Expiring for AMC</p>
       </div>
-      <div class="h-[130px] w-[200px] md:w-[250px] lg:w-[200px] rounded  shadow-lg bg-white my-4">
+      <div class="h-[130px] w-[800px] md:w-[250px] lg:w-[200px] rounded  shadow-lg bg-white my-4">
         <div className="p-2 flex justify-between">
           <FontAwesomeIcon
             icon={faMedal}
@@ -34,7 +34,7 @@ export default function Cards() {
         </div>
         <p className="text-md text-gray-400 m-2">Contract Exprining for Warranty</p>
       </div>
-      <div class="h-[130px] w-[200px] md:w-[250px] lg:w-[200px] rounded  shadow-lg bg-white my-4">
+      <div class="h-[130px] w-[800px] md:w-[250px] lg:w-[200px] rounded  shadow-lg bg-white my-4">
         <div className="p-2 flex justify-between">
           <FontAwesomeIcon
             icon={faIndianRupee}
@@ -44,7 +44,7 @@ export default function Cards() {
         </div>
         <p className="text-md text-gray-400 m-2">Pending Sales Enquiry Qutation</p>
       </div>
-      <div class="h-[130px] w-[200px] md:w-[250px] lg:w-[200px] rounded  shadow-lg bg-white my-4">
+      <div class="h-[130px] w-[800px] md:w-[250px] lg:w-[200px] rounded  shadow-lg bg-white my-4">
         <div className="p-2 flex justify-between">
           <FontAwesomeIcon
             icon={faLock}
@@ -54,7 +54,7 @@ export default function Cards() {
         </div>
         <p className="text-md text-gray-400 m-2">Open Purchase Order</p>
       </div>
-      <div class="h-[130px] w-[200px] md:w-[250px] lg:w-[200px] rounded  shadow-lg bg-white my-4">
+      <div class="h-[130px] w-[800px] md:w-[250px] lg:w-[200px] rounded  shadow-lg bg-white my-4">
         <div className="p-2 flex justify-between">
           <FontAwesomeIcon
             icon={faPager}
@@ -64,7 +64,7 @@ export default function Cards() {
         </div>
         <p className="text-md text-gray-400 m-2">Quotation</p>
       </div>
-      <div class="h-[130px] w-[200px] md:w-[250px] lg:w-[200px] rounded  shadow-lg bg-white my-4">
+      <div class="h-[130px] w-[800px] md:w-[250px] lg:w-[200px] rounded  shadow-lg bg-white my-4">
         <div className="p-2 flex justify-between">
           <FontAwesomeIcon
             icon={faWrench}
@@ -74,7 +74,7 @@ export default function Cards() {
         </div>
         <p className="text-md text-gray-400 m-2">Sites</p>
       </div>
-      <div class="h-[130px] w-[200px] md:w-[250px] lg:w-[200px] rounded  shadow-lg bg-white my-4">
+      <div class="h-[130px] w-[800px] md:w-[250px] lg:w-[200px] rounded  shadow-lg bg-white my-4">
         <div className="p-2 flex justify-between">
           <FontAwesomeIcon
             icon={faChalkboard}
@@ -84,7 +84,7 @@ export default function Cards() {
         </div>
         <p className="text-md text-gray-400 m-2">Site Notes</p>
       </div>
-      <div class="h-[130px] w-[200px] md:w-[250px] lg:w-[200px] rounded  shadow-lg bg-white my-4">
+      <div class="h-[130px] w-[800px] md:w-[250px] lg:w-[200px] rounded  shadow-lg bg-white my-4">
         <div className="p-2 flex justify-between">
           <FontAwesomeIcon
             icon={faUserGear}
@@ -94,7 +94,7 @@ export default function Cards() {
         </div>
         <p className="text-md text-gray-400 m-2">Active Jobs</p>
       </div>
-      <div class="h-[130px] w-[200px] md:w-[250px] lg:w-[200px] rounded  shadow-lg bg-white my-4">
+      <div class="h-[130px] w-[800px] md:w-[250px] lg:w-[200px] rounded  shadow-lg bg-white my-4">
         <div className="p-2 flex justify-between">
           <FontAwesomeIcon
             icon={faUserXmark}
@@ -104,7 +104,7 @@ export default function Cards() {
         </div>
         <p className="text-md text-gray-400 m-2">Engineers not assigned job for tomorrow</p>
       </div>
-      <div class="h-[130px] w-[200px] md:w-[250px] lg:w-[200px] rounded  shadow-lg bg-white my-4">
+      <div class="h-[130px] w-[800px] md:w-[250px] lg:w-[200px] rounded  shadow-lg bg-white my-4">
         <div className="p-2 flex justify-between">
           <FontAwesomeIcon
             icon={faComments}
@@ -114,7 +114,7 @@ export default function Cards() {
         </div>
         <p className="text-md text-gray-400 m-2">Quotes follow up</p>
       </div>
-      <div class="h-[130px] w-[200px] md:w-[250px] lg:w-[200px] rounded  shadow-lg bg-white my-4">
+      <div class="h-[130px] w-[800px] md:w-[250px] lg:w-[200px] rounded  shadow-lg bg-white my-4">
         <div className="p-2 flex justify-between">
           <FontAwesomeIcon
             icon={faWrench}
@@ -124,7 +124,7 @@ export default function Cards() {
         </div>
         <p className="text-md text-gray-400 m-2">New Calls</p>
       </div>
-      <div class="h-[130px] w-[200px] md:w-[250px] lg:w-[200px] rounded  shadow-lg bg-white my-4">
+      <div class="h-[130px] w-[800px] md:w-[250px] lg:w-[200px] rounded  shadow-lg bg-white my-4">
         <div className="p-2 flex justify-between">
           <FontAwesomeIcon
             icon={faPhone}
@@ -134,7 +134,7 @@ export default function Cards() {
         </div>
         <p className="text-md text-gray-400 m-2">Assigned Calls</p>
       </div>
-      <div class="h-[130px] w-[200px] md:w-[250px] lg:w-[200px] rounded  shadow-lg bg-white my-4">
+      <div class="h-[130px] w-[800px] md:w-[250px] lg:w-[200px] rounded  shadow-lg bg-white my-4">
         <div className="p-2 flex justify-between">
           <FontAwesomeIcon
             icon={faHourglass}
@@ -144,7 +144,7 @@ export default function Cards() {
         </div>
         <p className="text-md text-gray-400 m-2">InProgress Calls</p>
       </div>
-      <div class="h-[130px] w-[200px] md:w-[250px] lg:w-[200px] rounded  shadow-lg bg-white my-4">
+      <div class="h-[130px] w-[800px] md:w-[250px] lg:w-[200px] rounded  shadow-lg bg-white my-4">
         <div className="p-2 flex justify-between">
           <FontAwesomeIcon
             icon={faCheck}
@@ -154,7 +154,7 @@ export default function Cards() {
         </div>
         <p className="text-md text-gray-400 m-2">Engineer/Techmician Completed Calls</p>
       </div>
-      <div class="h-[130px] w-[200px] md:w-[250px] lg:w-[200px] rounded  shadow-lg bg-white my-4">
+      <div class="h-[130px] w-[800px] md:w-[250px] lg:w-[200px] rounded  shadow-lg bg-white my-4">
         <div className="p-2 flex justify-between">
           <FontAwesomeIcon
             icon={faCheck}
@@ -164,7 +164,7 @@ export default function Cards() {
         </div>
         <p className="text-md text-gray-400 m-2">Completed Calls</p>
       </div>
-      <div class="h-[130px] w-[200px] md:w-[250px] lg:w-[200px] rounded  shadow-lg bg-white my-4">
+      <div class="h-[130px] w-[800px] md:w-[250px] lg:w-[200px] rounded  shadow-lg bg-white my-4">
         <div className="p-2 flex justify-between">
           <FontAwesomeIcon
             icon={faXmark}
@@ -174,7 +174,7 @@ export default function Cards() {
         </div>
         <p className="text-md text-gray-400 m-2">Cancelled Calls</p>
       </div>
-      <div class="h-[130px] w-[200px] md:w-[250px] lg:w-[200px] rounded  shadow-lg bg-white my-4">
+      <div class="h-[130px] w-[800px] md:w-[250px] lg:w-[200px] rounded  shadow-lg bg-white my-4">
         <div className="p-2 flex justify-between">
           <FontAwesomeIcon
             icon={faCube}
@@ -184,7 +184,7 @@ export default function Cards() {
         </div>
         <p className="text-md text-gray-400 m-2">DC-Pending Invoice</p>
       </div>
-      <div class="h-[130px] w-[200px] md:w-[250px] lg:w-[200px] rounded  shadow-lg bg-white my-4">
+      <div class="h-[130px] w-[800px] md:w-[250px] lg:w-[200px] rounded  shadow-lg bg-white my-4">
         <div className="p-2 flex justify-between">
           <FontAwesomeIcon
             icon={faCube}
@@ -194,7 +194,7 @@ export default function Cards() {
         </div>
         <p className="text-md text-gray-400 m-2">DC-Not Delivered</p>
       </div>
-      <div class="h-[130px] w-[200px] md:w-[250px] lg:w-[200px] rounded  shadow-lg bg-white my-4">
+      <div class="h-[130px] w-[800px] md:w-[250px] lg:w-[200px] rounded  shadow-lg bg-white my-4">
         <div className="p-2 flex justify-between">
           <FontAwesomeIcon
             icon={faLock}
@@ -204,7 +204,7 @@ export default function Cards() {
         </div>
         <p className="text-md text-gray-400 m-2">PO-Pending Approvel</p>
       </div>
-      <div class="h-[130px] w-[200px] md:w-[520px]  lg:w-[450px]   rounded shadow-lg bg-white my-4 md:col-span-2 lg:col-span-2">
+      <div class="h-[130px] w-[800px] md:w-[520px]  lg:w-[450px]   rounded shadow-lg bg-white my-4 md:col-span-2 lg:col-span-2">
         <div className="p-2 flex justify-between">
           <FontAwesomeIcon
             icon={faWrench}
@@ -219,7 +219,7 @@ export default function Cards() {
           <div><p className="text-sm text-gray-400 ">Engineer&nbsp;Completed</p><p className="text-sm text-gray-400 text-center">5</p></div>
         </div>
       </div>
-      <div class="h-[130px] w-[200px] md:w-[250px] lg:w-[200px] rounded  shadow-lg bg-white my-4">
+      <div class="h-[130px] w-[800px] md:w-[250px] lg:w-[200px] rounded  shadow-lg bg-white my-4">
         <div className="p-2 flex justify-between">
           <FontAwesomeIcon
             icon={faCheck}
