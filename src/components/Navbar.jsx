@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Settings, Mail, Bell, User, Menu } from 'lucide-react';
+import logo from '../imgs/logo.png';
 
 const Navbar = ({ toggleSidebar }) => {
     return (
@@ -12,7 +13,7 @@ const Navbar = ({ toggleSidebar }) => {
                     <Menu size={22} />
                 </button>
 
-                <img src="./logo.png" alt="Logo" className="w-32 sm:w-40 p-2" />
+                <img src={logo}  alt="Logo" className="w-32 sm:w-40 p-2" />
             </div>
 
             <div className="hidden sm:flex items-center space-x-4">
