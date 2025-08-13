@@ -11,7 +11,7 @@ import CustomerGraph from "../components/customersGraph";
 import AMC_Contract from "../components/amc_contrat";
 import SalesReport from "../components/sales_report";
 import SystemType from "../components/system_type";
-import Calls from "../components/callsTable";
+// import Calls from "../components/callsTable";
 const Dashboard = () => {
   const [sidebarOpen, setSidebarOpen] = useState(false);
   return (
@@ -42,7 +42,7 @@ const Dashboard = () => {
             <div className="bg-white p-6 rounded m-2 shadow-lg">
               <div className="">
                 <h4 className="text-xl font-bold text-gray-500 mb-2">New Customer & New Site Details <sub className="text-gray-400 text-sm">for 2025</sub></h4>
-                <div className="bg-white shadow-lg rounded-xl p-6 max-w-5xl mx-auto h-[400px]">
+                <div className="bg-white shadow-lg rounded-xl p-6  h-[400px]">
                   <CustomerGraph />
                 </div>
               </div>
@@ -50,7 +50,7 @@ const Dashboard = () => {
             <div className="bg-white p-6 rounded  shadow-lg m-2">
               <div className="">
                 <h4 className="text-md font-bold text-gray-500 mb-2">Warranty & AMC Contract Expiring Details<sub className="text-gray-400 text-sm">for 2025</sub></h4>
-                <div className="bg-white shadow-lg rounded-xl p-6  h-[400px] mx-auto">
+                <div className="bg-white shadow-lg rounded-xl p-6">
                   <AMC_Contract />
                 </div>
               </div>
@@ -67,7 +67,7 @@ const Dashboard = () => {
               <SystemType />
             </div>
           </div>
-          <Calls/>
+          {/* <Calls/> */}
         </main>
       </div>
     </div>

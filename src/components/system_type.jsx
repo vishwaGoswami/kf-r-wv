@@ -14,7 +14,7 @@ import {
   
   function SystemType() {
     return (
-      <div className="relative max-w-xs h-[300px] mx-auto">
+      <div className="relative h-[300px] mx-auto">
         <ResponsiveContainer width="100%" height="100%">
           <PieChart>
             <Pie

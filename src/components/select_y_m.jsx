@@ -1,10 +1,10 @@
 export default function Year_Month() {
     return (
-        <div class="rounded overflow-hidden shadow-lg bg-white my-7">
+        <div class="rounded overflow-hidden shadow-lg bg-white my-7 p-5">
             <div className="flex flex-col md:flex-row md:flex-wrap">
                 <div className="m-4">
                     <label class="block text-md  py-4 font-medium text-gray-700">Select Year</label>
-                    <select class="block w-full md:w-full lg:w-full  border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 h-[40%]">
+                    <select class="block w-[250px] border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 h-[40%]">
                         <option value="2025" selected>2025</option>
                         <option value="2024">2024</option>
                         <option value="2023">2023</option>
@@ -15,7 +15,7 @@ export default function Year_Month() {
                 </div>
                 <div className="m-4">
                     <label class="block text-md  py-4 font-medium text-gray-700">Select Month</label>
-                    <select class="block w-full md:w-full lg:w-full border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 h-[40%]">
+                    <select class="block w-[250px] border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 h-[40%]">
                         <option value="2025">January</option>
                         <option value="2024">February</option>
                         <option value="2023">March</option>
@@ -31,10 +31,10 @@ export default function Year_Month() {
                     </select>
                 </div>
             </div>
-            <div className="flex">
-                <button className="p-2 m-2 text-sm text-black rounded-sm bg-gray-300 w-[20%] md:w-[7%] lg:w-[10%]">Clear
+            <div className="flex p-2">
+                <button className="p-2 m-2 text-sm text-black rounded-sm bg-gray-300 w-[20%] md:w-[15%] lg:w-[10%]">Clear
                 </button>
-                <button className="p-2 m-2 text-sm text-white rounded-sm bg-blue-500 w-[20%] md:w-[7%] lg:w-[10%]">Search
+                <button className="p-2 m-2 text-sm text-white rounded-sm bg-blue-500 w-[20%] md:w-[15%] lg:w-[10%]">Search
                 </button>
             </div>
         </div>
