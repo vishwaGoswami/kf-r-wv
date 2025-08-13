@@ -24,7 +24,7 @@ const Dashboard = () => {
         />
         <main className="flex-1 bg-gray-100 mt-20 sm:mt-24 p-4 lg:pl-80">
           {/* Write Code here */}
-          <h1 className="text-3xl text-gray-800">Dashboard</h1>
+          <h1 className="text-xl md:2xl lg:3xl text-gray-800">Dashboard</h1>
           <Year_Month />
           <Cards />
           <Sales_priority />
